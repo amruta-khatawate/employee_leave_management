@@ -9,13 +9,13 @@ public class EmployeeDto {
     private String email;
     private String role;
 
-    @Override
-    public String toString() {
-        return "EmployeeDto{" +
-            "id=" + id +
-            ", name='" + name + '\'' +
-            ", email='" + email + '\'' +
-            ", role='" + role + '\'' +
-            '}';
-    }
+    // @Override
+    // public String toString() {
+    //     return "EmployeeDto{" +
+    //         "id=" + id +
+    //         ", name='" + name + '\'' +
+    //         ", email='" + email + '\'' +
+    //         ", role='" + role + '\'' +
+    //         '}';
+    // }
 }
