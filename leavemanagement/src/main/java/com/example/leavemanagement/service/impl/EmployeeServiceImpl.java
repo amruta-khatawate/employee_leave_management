@@ -64,7 +64,9 @@ public class EmployeeServiceImpl implements EmployeeService{
 
             for(Employee employee : employees){
                   EmployeeDto dto = convertToDto(employee);
-                  employeeDtos.add(dto);
+                  if("employee".equals(dto.getRole())){
+                        employeeDtos.add(dto);
+                  }
             }
 
             return employeeDtos;
